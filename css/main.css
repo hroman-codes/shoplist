@@ -1,0 +1,23 @@
+/*
+
+     styles.css
+    
+     Colors
+     *******
+    
+     Black:              #
+    
+*/
+
+/* -------------------------
+     General Styles
+   -------------------------*/
+html {
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizelegibility;
+}
+
+body {
+    background-image: url("images/Kitchen_BG.png");
+
+}

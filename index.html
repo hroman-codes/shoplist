@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta charset="UTF-8">
 	<title>Heriberto Shopping List</title>
 </head>
 <body>
 	<header class="container">
-		<img src="images/Kitchen_BG.png" alt="">
 		<div class="intro">
 			<img src="images/computershopping.png" alt="Picture with a computer withing the shopping cart">
 			<h1>Shopping List</h1>
@@ -15,11 +17,39 @@
 Enter each item in the textbox below, then press add!</p>
 		</div>
 	</header>
-	<div>
-	<form action="">
-	<input type="radio" name="Reset" value="Reset">Reset List<br>
-	<input type="radio" name="Reset" value="Clearchecked">Clear all checked items<br>
-	</form>
+	
+	<div class="container">
+		<form>
+			<input type="radio" name="Reset" value="Reset">Reset List<br>
+			<input type="radio" name="Reset" value="Clearchecked">Clear all checked items<br>
+		</form>
+	</div>
+
+	<div class="container">
+		<form>
+			<input type="text" name="test" value="">
+			<input type="submit" value="Add">
+		</form>
+	</div>
+
+	<div class="list-area-active">
+		<ul>
+			<li>
+				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
+				<p>Bread</p>
+				<button><i class="fa fa-check-square-o fa-lg"></i></button>
+			</li>
+			<li>
+				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
+				<p>Bread</p>
+				<button><i class="fa fa-check-square-o fa-lg"></i></button>		
+			</li>
+			<li>
+				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
+				<p>Bread</p>
+				<button><i class="fa fa-check-square-o fa-lg"></i></button>	
+			</li>
+		</ul>
 	</div>
 
 </body>
