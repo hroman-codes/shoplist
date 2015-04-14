@@ -18,52 +18,55 @@
 Enter each item in the textbox below, then press add!</p>
 		</div>
 	</header>
-	
+
+	<!-- ***** Reset list starts here  ***** -->
+
 	<div class="container">
-		<form>
+		<form class="resetlist">
 			<input type="radio" name="Reset" value="Reset">Reset List<br>
 			<input type="radio" name="Reset" value="Clearchecked">Clear all checked items<br>
 		</form>
 	</div>
 
+	<!-- ***** text form for groceries insertion starts here ***** -->
+
 	<div class="container">
 		<form>
-			<input type="text" name="test" value="">
+			<input type="text" name="test" value="add">
 			<input type="submit" value="Add">
 		</form>
 	</div>
 
+	<!-- ***** to do list items start here ***** -->
+
 	<div class="list-area-active container">
 		<ul>
-			<li>
+			<li class="to-do">
 				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
 				<p>Bread</p>
 				<button><i class="fa fa-check-square-o fa-lg"></i></button>
 			</li>
-			<li>
+			<li class="to-do">
 				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
 				<p>Bread</p>
 				<button><i class="fa fa-check-square-o fa-lg"></i></button>		
 			</li>
+		</ul>
+	</div>
+
+	<!-- ***** completed list items start here ***** -->
+
+	<div class="list-area-completed container">
+		<ul>
 			<li>
 				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
 				<p>Bread</p>
-				<button><i class="fa fa-check-square-o fa-lg"></i></button>	
+				<button><i class="fa fa-circle fa-lg"></i></button>
 			</li>
 			<li>
 				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
 				<p>Bread</p>
-				<button><i class="fa fa-check-square-o fa-lg"></i></button>	
-			</li>
-			<li>
-				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
-				<p>Bread</p>
-				<button><i class="fa fa-check-square-o fa-lg"></i></button>	
-			</li>
-			<li>
-				<button><i class="fa fa-minus-square-o fa-lg"></i></button>
-				<p>Bread</p>
-				<button><i class="fa fa-check-square-o fa-lg"></i></button>	
+				<button><i class="fa fa-circle fa-lg"></i></button>		
 			</li>
 		</ul>
 	</div>
