@@ -70,17 +70,37 @@ h2 {
      Reset list
    -------------------------*/
 
-.resetlist .container {
-    text-align: left;
-    margin-bottom: 1em;   
+.resetcontainer {
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.81em;
+  left: 41.4em;
+  line-height: 1.43em;
+  margin-bottom: 1em;
+  position: relative;
+  text-align: left;
+  width: 12.5em; 
 }
 
 /* -------------------------
-     Text form
+     Text form groceries insertion
    -------------------------*/
 
+.list-area-insertion input[type="text"] {
+    /*background-color: green;*/
+    width: 16em;
+    height: 2em;
+}
 
-
+button[type="submit"] {
+    background-color: #36d9bc;
+    /*text-shadow: none;*/
+    width: 4em;
+    height: 2em;
+    border-left-width: 0;
+    margin: 0 -4px 0 0;
+    border-style: none;
+}
 
    /* -------------------------
      To do
