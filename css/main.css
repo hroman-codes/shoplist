@@ -107,10 +107,6 @@ button[type="submit"] {
         To do list items
    -------------------------*/
 
-.list-area-active {
-    /*background-color: red;*/
-}
-
 ul, li {
     list-style: none;
     padding-left: 0;
@@ -125,13 +121,18 @@ li {
     width: 14em;
 }
 
-
-.fa, .fa-check-square-o, .fa-lg {
-    background-color: blue;
-    border-style: none;
+button .fa-check-square-o {
+    color: #36d9bc; 
+    position: relative;
+    right: 6.7em;
+    top: 2px;
 }
 
-
+.to-do p {
+  bottom: 1.87em;
+  color: #666666;
+  position: relative;
+}
 
    /* -------------------------
         Completed list items
@@ -139,4 +140,19 @@ li {
 
 .list-area-completed li {
     background-color: #36d9bc;
+}
+
+button .fa-circle {
+    border-style: none;
+    background-color: none;
+    color: #575757; 
+    position: relative;
+    right: 6.7em;
+    top: 2px;
+}
+
+.completed p {
+  bottom: 1.87em;
+  color: #666666;
+  position: relative;
 }
