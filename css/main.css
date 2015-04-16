@@ -21,6 +21,12 @@ body {
     background-color: #909090;
 }
 
+hr {
+  width: 37px;
+  height: 10px;
+  color: #000;
+}
+
 /* -------------------------
      Header
    -------------------------*/
@@ -155,4 +161,5 @@ button .fa-circle {
   bottom: 1.87em;
   color: #666666;
   position: relative;
+  text-decoration: line-through;
 }

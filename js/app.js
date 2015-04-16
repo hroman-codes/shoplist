@@ -1,5 +1,7 @@
-$(document).ready(function() {
-			$('.ryu').mouseenter(function() {
-						('.ryu-all').hide()
-						$('.ryu-ready').show(
-						
+$('#add').on('click', function(event){
+    event.preventDefault(); 
+    
+    var userInput = $('.shoppingItem').val();
+
+    $('.todos').append('<li>' + userInput + '</li>')  
+})
