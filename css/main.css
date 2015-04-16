@@ -91,7 +91,6 @@ h2 {
    -------------------------*/
 
 .list-area-insertion input[type="text"] {
-    /*background-color: green;*/
     width: 16em;
     height: 2em;
     margin: 0;
@@ -106,6 +105,7 @@ button[type="submit"] {
     margin: 0;
     padding: 0;
     border-style: none;
+    border: 1px solid #2b8070;
 }
 
    /* -------------------------
@@ -118,7 +118,7 @@ ul, li {
 }
 
 li {
-    border: 1px solid #000;
+    border: 1px solid #2b8070;
     background-color: white;
     height: 1.5em;
     margin: 0 auto;
