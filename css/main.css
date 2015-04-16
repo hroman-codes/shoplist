@@ -100,7 +100,6 @@ h2 {
 
 button[type="submit"] {
     background-color: #36d9bc;
-    /*text-shadow: none;*/
     width: 4em;
     height: 2em;
     border-left-width: 0;
@@ -127,11 +126,21 @@ li {
     width: 14em;
 }
 
-button .fa-check-square-o {
+.fa-check-square-o {
     color: #36d9bc; 
-    position: relative;
-    right: 6.7em;
-    top: 2px;
+    right: 2.2em;
+    top: -0.12em;
+}
+
+.to-dobutton {
+  position: relative;
+  display: inline-block;
+  right: 9.1em;
+  width: 2em;
+  height: 2em;
+  border: none;
+  background-color: transparent;
+  z-index: 1;
 }
 
 .to-do p {
@@ -148,13 +157,21 @@ button .fa-check-square-o {
     background-color: #36d9bc;
 }
 
-button .fa-circle {
-    border-style: none;
-    background-color: none;
+.fa-circle {
     color: #575757; 
-    position: relative;
     right: 6.7em;
     top: 2px;
+}
+
+.completed-button {
+  position: relative;
+  display: inline-block;
+  right: 9.1em;
+  width: 2em;
+  height: 2em;
+  border: none;
+  background-color: transparent;
+  z-index: 1;
 }
 
 .completed p {
