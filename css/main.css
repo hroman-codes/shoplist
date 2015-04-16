@@ -144,7 +144,7 @@ li {
 }
 
 .to-do p {
-  bottom: 1.87em;
+  bottom: 2.1em;
   color: #666666;
   position: relative;
 }
@@ -175,7 +175,7 @@ li {
 }
 
 .completed p {
-  bottom: 1.87em;
+  bottom: 2.1em;
   color: #666666;
   position: relative;
   text-decoration: line-through;
