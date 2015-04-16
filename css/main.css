@@ -133,13 +133,15 @@ li {
 }
 
 .to-dobutton {
-  position: relative;
-  display: inline-block;
-  right: 9.1em;
-  width: 2em;
-  height: 2em;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 2em;
+  outline: 0;
+  position: relative;
+  right: 9.1em;
+  width: 2em;
   z-index: 1;
 }
 
@@ -164,13 +166,15 @@ li {
 }
 
 .completed-button {
-  position: relative;
-  display: inline-block;
-  right: 9.1em;
-  width: 2em;
-  height: 2em;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 2em;
+  outline: 0;
+  position: relative;
+  right: 9.1em;
+  width: 2em;
   z-index: 1;
 }
 
