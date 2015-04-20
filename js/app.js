@@ -1,7 +1,5 @@
-$('#add').on('click', function(event){
-    event.preventDefault(); 
-    
-    var userInput = $('.shoppingItem').val();
-
-    $('.todos').append('<li>' + userInput + '</li>')  
-})
+$(document).ready(function() {
+	$(".list-area-active").mouseenter(function() {
+	$(".to-do").hide();
+	});
+});
