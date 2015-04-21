@@ -4,6 +4,6 @@ $(document).ready(function() {
 
 		var userInput = $(".shoppingitem").val();
 
-		$(".to-do").append("<li>" + userInput + "</li>")
+		$(".to-do").prepend("<li>" + userInput + "</li>")
 	});
 });
