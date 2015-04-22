@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 
-$('.clearbutton').on("click", function(event)) {
+$(".clearbutton").on("click", function(event) {
 		event.preventDefault();
 
 		var userInput = $(".clearbutton").val();
