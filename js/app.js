@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 		var userInput = $(".shoppingitem").val();
 
-		$(".list-area-active").append("<<li></li>>" + "<input type='checkbox'>" + userInput + "</li>")	
+		$(".list-area-active").append("<li></li>" + "<input type='checkbox'>" + userInput + "</li>")	
 	});
 $(document).on("click", "li", function() {
         $(this).remove();
