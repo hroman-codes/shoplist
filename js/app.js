@@ -4,6 +4,15 @@ $(document).ready(function() {
 
 		var userInput = $(".shoppingitem").val();
 
-		$(".to-do").prepend("<li>" + userInput + "</li>")
+		$(".list-area-active").append("<li>" + "<input type='checkbox'>" + userInput + "</li>")	
 	});
+});
+
+
+$('.clearbutton').on("click", function(event)) {
+		event.preventDefault();
+
+		var userInput = $(".clearbutton").val();
+		
+		$(".list-area-active").hide();
 });
