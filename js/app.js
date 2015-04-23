@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 		$(".list-area-active").append("<li>" + "<input type='checkbox'>" + userInput + "</li>")	
 	});
-	
+
 $(document).on("click", "li", function() {
         $(this).remove();
     });
