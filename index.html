@@ -26,9 +26,9 @@ Enter each item in the textbox below, then press add!</p>
 	<!-- ***** Reset list starts here  ***** -->
 
 	<div class="container">
-		<form class="resetcontainer">
-			<button class=""reset-list" "name="" type="submit" value="reset">Reset</button>
-			<button class="clearbutton checked" name="" type="submit" value="">Check</button>
+		<form class="resetcontainer ">
+			<button class="reset-list" name="" type="submit" value="">Reset</button>
+			<button class="checked" name="" type="submit" value="">Check</button>
 		</form>
 	</div>
 
@@ -36,22 +36,13 @@ Enter each item in the textbox below, then press add!</p>
 
 	<div class="list-area-insertion container">
 		<form>
-			<input class="shoppingitem" type="text" name="test" value="" placeholder="Enter each item and click add"></input>
-			<button type="submit" id="add" value="add">Add</button>
+			<input type="text" class="shoppinglistitem" name="shoppinglistitem" value="" placeholder="Enter each item and click add"></input>
+			<button name="" type="submit" id="add" value="add">Add</button>
 		</form>
 	</div>
 
-	<!-- ***** to do list items start here ***** -->
+	<!-- ***** Dynamically added content goes to the div below ***** -->
 
-	<div class="list-area-active container">
-		<ul></ul>
-	</div>
-
-	<!-- ***** completed list items start here ***** -->
-
-	<div class="list-area-completed container">
-		<ul></ul>
-	</div>
-
+	<div class="list"></div>
 </body>
 </html>

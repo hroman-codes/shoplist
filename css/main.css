@@ -34,6 +34,7 @@ hr {
 .container {
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 .computerimg {
@@ -80,10 +81,11 @@ h2 {
   font-size: 0.81em;
   left: 41.4em;
   line-height: 1.43em;
-  margin-bottom: 1em;
-  position: relative;
+  margin-bottom: 2em;
+  /*position: relative;*/
   text-align: left;
   width: 12.5em; 
+  margin: 0 auto;
 }
 
 /* -------------------------
@@ -96,17 +98,6 @@ h2 {
     margin: 0;
     padding: 0;
 }
-
-/*button[type="submit"] {
-    background-color: #36d9bc;
-    width: 4em;
-    height: 2em;
-    border-left-width: 0;
-    margin: 0;
-    padding: 0;
-    border-style: none;
-    border: 1px solid #2b8070;
-}*/
 
 button[type="submit"] {
   background-color: #36d9bc;
