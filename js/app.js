@@ -1,22 +1,28 @@
 $(document).ready(function() {
-	$("#add").on("click", function(event){
-		event.preventDefault();
+  $('#add').click(function() {
 
-		var userInput = $(".shoppingitem").val();
+    var userInput = $('input[name=shoppinglistitem]').val();
 
-		$(".list-area-active").append("<li>" + "<input type='checkbox'>" + userInput + "</li>")	
-	});
-
-$(document).on("click", "li", function() {
-        $(this).remove();
-    });
+    $('.list').append('<li>' + '<input class="checked-item" type="checkbox">' + userInput + "</li>");
+    return false;
+  });
+  
+ 		/****** toggle class ******/
+    
+    $(document).on("click",".checked-item",function(){
+    
+   	$(this).parent().toggleClass( "it-is-checked");
+  });
+    
+   /***** End toggle class ******/
+    
+     $('.checked').on('click', function(e){
+      e.preventDefault(); 
+      $('.it-is-checked').remove();
+  });
+     
+     $('.reset-list').on('click', function(e) {
+       e.preventDefault();
+       $('li').remove();
+     }) 
 });
-
-
-// $(".clearbutton").on("click", function(event) {
-// 		event.preventDefault();
-
-// 		var userInput = $(".clearbutton").val();
-
-// 		$(".list-area-active", "li").hide();
-// });
