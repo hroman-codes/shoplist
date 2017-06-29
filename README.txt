@@ -1,1 +1,3 @@
-Shoplist is a webapp custom designed and developed by Heriberto Roman for a project under the Thinkful Frontend Web Developmemnt course (FEWD) https://www.thinkful.com/courses/learn-web-development-online.
+Shoplist is a webapp custom designed and developed by Heriberto Roman for a project under the Thinkful Frontend Web Developmemnt course (FEWD.
+
+http://iamromanh.github.io/shoplist/
